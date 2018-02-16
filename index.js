@@ -33,6 +33,6 @@ return newKittens;
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
 function prependKitten(catThree) {
-var newKittens = [...kittens, catThree];
+var newKittens = [ catThree, ...kittens,];
 return newKittens;
 }
