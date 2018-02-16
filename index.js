@@ -39,6 +39,5 @@ return newKittens;
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
 function removeLatKitten() {
-var newKittens = [...kittens, catThree];
-return newKittens;
+return newKittens.pop()
 }
