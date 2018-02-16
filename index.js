@@ -43,7 +43,9 @@ var newKittens = kittens.slice(0, kittens.length - 1)
 return newKittens
 }
 */
-
-var newKittens = [...kittens]
- +  newKittens.pop()
- +  return newKittens
+function removeLastKitten(){
+  var newKittens = [...kittens]
+  newKittens.pop()
+  return newKittens
+  
+}
