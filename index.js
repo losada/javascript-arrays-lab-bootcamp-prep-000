@@ -37,9 +37,13 @@ var newKittens = [ catThree, ...kittens,];
 return newKittens;
 }
 
-var kittens = ['Milo', 'Otis', 'Garfield'];
+/*var kittens = ['Milo', 'Otis', 'Garfield'];
 function removeLastKitten() {
-//var newKittens = [...kittens];
 var newKittens = kittens.slice(0, kittens.length - 1)
 return newKittens
 }
+*/
+
+var newKittens = [...kittens]
+ +  newKittens.pop()
+ +  return newKittens
