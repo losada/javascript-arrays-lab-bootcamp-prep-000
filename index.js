@@ -30,5 +30,3 @@ function appendKitten(catThree) {
 var newKittens = [...kittens, catThree];
 return newKittens;
 }
-
-function 
