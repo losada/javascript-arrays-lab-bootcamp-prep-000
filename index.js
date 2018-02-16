@@ -30,3 +30,9 @@ function appendKitten(catThree) {
 var newKittens = [...kittens, catThree];
 return newKittens;
 }
+
+var kittens = ['Milo', 'Otis', 'Garfield'];
+function prependKitten(catThree) {
+var newKittens = [...kittens, catThree];
+return newKittens;
+}
