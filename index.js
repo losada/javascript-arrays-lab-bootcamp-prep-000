@@ -36,3 +36,9 @@ function prependKitten(catThree) {
 var newKittens = [ catThree, ...kittens,];
 return newKittens;
 }
+
+var kittens = ['Milo', 'Otis', 'Garfield'];
+function removeLatKitten() {
+var newKittens = [...kittens, catThree];
+return newKittens;
+}
